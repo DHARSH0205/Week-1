@@ -12,22 +12,22 @@ This **AI-powered solution** supports sustainable waste management practices by 
 
 ## 📊 Dataset Overview
 
-**Source:** [Kaggle - Waste Classification Dataset by Adithya Challa](https://www.kaggle.com/datasets/techsash/waste-classification-data)
+**Source:** [Kaggle - Waste Classification Dataset by Adithya Challa](https://www.kaggle.com/datasets/adithyachalla/waste-classification)
 
 **Total Images:** ~4,000  
-**Image Format:** JPG/PNG (RGB)  
+**Image Format:** JPG(RGB)  
 **Structure:** Each folder represents a unique waste class.
 
 ---
 
 ### 🗂 Selected Categories for This Project
 
-| Final Category | Original Folder | Description |
+| Category | Folder Name | Description |
 |----------------|-----------------|--------------|
-| **Plastic** | `7-Plastic` | Plastic bottles, containers, bags, and packaging |
-| **Paper** | `6-Paper` | Newspapers, sheets, books, and paper items |
-| **Metal** | `4-Metal` | Aluminum cans, foils, and metal scraps |
-| **Organic** | `2-Food Organics` | Food waste, fruits, and vegetables |
+| **Plastic** | `1-Plastic` | Plastic bottles, containers, bags, and packaging |
+| **Paper** | `2-Paper` | Newspapers, sheets, books, and paper items |
+| **Metal** | `3-Metal` | Aluminum cans, foils, and metal scraps |
+| **Organic** | `4-Food Organics` | Food waste, fruits, and vegetables |
 
 ---
 

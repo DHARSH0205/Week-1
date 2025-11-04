@@ -1,4 +1,4 @@
-# 🧠 Waste Classification using CNN
+# Waste Classification using CNN
 
 ## 🎯 Problem Statement
 

@@ -55,7 +55,6 @@ Images are directly used from the Kaggle dataset **without modification** to mai
 
 ## Training
 - **Platform:** Kaggle Notebook with GPU  
-- **Epochs:** 8  
 - **Batch Size:** 32  
 - **Validation Split:** 20%  
 - **Data Preprocessing:** Images resized to 224×224 and normalized  

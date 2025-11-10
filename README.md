@@ -38,3 +38,32 @@ Images are directly used from the Kaggle dataset **without modification** to mai
 ---
 
 📘 *This project contributes to advancing automated waste segregation and supports environmental sustainability through intelligent waste management.*
+
+## Model Architecture
+- **Base Model:** MobileNetV2 (pretrained on ImageNet)  
+- **Input Shape:** 224×224×3  
+- **Top Layers Added:**
+  - GlobalAveragePooling2D
+  - Dense layer(s) for classification
+- **Optimizer:** Adam  
+- **Loss Function:** Sparse Categorical Crossentropy  
+- **Metrics:** Accuracy  
+
+**Notes:** Using a pretrained base model helps achieve high accuracy with limited data by leveraging **transfer learning**.
+
+---
+
+## Training
+- **Platform:** Kaggle Notebook with GPU  
+- **Epochs:** 8  
+- **Batch Size:** 32  
+- **Validation Split:** 20%  
+- **Data Preprocessing:** Images resized to 224×224 and normalized  
+- **GPU Optimization:** Datasets cached and prefetched  
+
+**Training Results:**
+- Training Accuracy: 0.927  
+- Validation Accuracy: ~0.92  
+
+---
+
